@@ -1,13 +1,8 @@
 import ij.IJ;
-import ij.ImageJ;
 import ij.ImagePlus;
 import ij.ImageStack;
-import ij.io.Opener;
 import ij.plugin.filter.PlugInFilter;
 import ij.process.ImageProcessor;
-
-import java.io.PipedInputStream;
-
 public class Nth_Order_Derivative implements PlugInFilter {
 
     protected ImageStack stack;
