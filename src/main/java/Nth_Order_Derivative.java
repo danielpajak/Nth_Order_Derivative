@@ -51,18 +51,5 @@ public class Nth_Order_Derivative implements PlugInFilter {
     }
 
     public static void main(String[] args) {
-
-        new ImageJ();
-
-        Opener opener = new Opener();
-
-        ImagePlus imagePlus = opener.openImage("C:\\Users\\pajak\\Desktop\\stacks\\XStack.tif");
-
-        ImageStack imageStack = imagePlus.getStack();
-
-        PixelsCalculator pixelsCalculator = new PixelsCalculator(imageStack, "X", 11, 2);
-
-        pixelsCalculator.calculateNewPixels(Tools.Axis.X_AXIS);
-
     }
 }
