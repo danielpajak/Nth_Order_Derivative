@@ -1,4 +1,4 @@
-This code describe implementation of plugin to ImageJ. This plugin uses finite difference coefficents to calculate n-th order derivative from discrete function. N-th order derivatve is used to sharpen image or stack of images by one of 3 axes (X, Y or Z). To run this plugin JAR file must be created and inserted into ImageJ directory.
+This code describe implementation of plugin to ImageJ. This plugin uses finite difference coefficients to calculate n-th order derivative by axes X, Y or Z from discrete function. N-th order derivatve can be used to sharpen image or stack of images. To run this plugin JAR file must be created and inserted into ImageJ directory.
 
 ![This is an image](https://i.ibb.co/bd3y8Ty/Screenshot-3.png)
 
