@@ -8,6 +8,6 @@ Configuration menu
 
 On the left: original data, on the right: sharpened image by second order five-point derivative by axis Z
 
-I also implemented this alghoritm in Python to show factors and indexes of points used to calculate n-th order derivative from discrete data. This is available here https://github.com/danielpajak/Nth_Derivative_Order_Python
+I also implemented this algorithm in Python to show factors and indexes of points used to calculate n-th order derivative from discrete data. This is available here https://github.com/danielpajak/Nth_Derivative_Order_Python
 
 Both implementations are part of my thesis.
